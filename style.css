@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --border: 0.1rem solid rgba(225, 225, 225, 0.3);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #010024;
+}
+
+section {
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.raio {
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 5px yellow;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: #20a23175;
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar {
+    margin-right: 30%;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fffb00;
+}
+
+.navbar a:hover {
+    color: #0400fa;
+    border-bottom: 0.1rem solid #0400fa;
+}
+
+.caixa-mae {
+    background: url(./assets/Imagem\ do\ WhatsApp\ de\ 2024-04-01\ à\(s\)\ 23.10.15_02981438.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.caixa-mae section {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.caixa-principal {
+    max-width: 60rem;
+    margin-top: 150px;
+}
+
+.caixa-principal h3 {
+    color: white;
+    width: 70%;
+    font-size: 1.9rem;
+    display: block;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 150px;
+    color: #088018;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 50px;
+}
+
+p {
+    color: #ffe80f;
+    font-size: 30px;
+    width: 50%;
+}
+
+.button-ctt {
+    color: #fffb00;
+    background-color: #088018;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px 4px white;
+}
+
+.button-ctt:hover {
+    opacity: 0.8;
+}
+
+.button-ctt:active {
+    opacity: 0.6;
+}
+
+.mapa-brasil {
+    width: 300px;
+    margin-left: 90%;
+    margin-top: -261px;
+    border-radius: 60%;
+    box-shadow: 0px 0px 10px 5px yellow;
+}
+
+
+.title {
+    font-size: 2.6rem;
+    color: #088018;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    box-shadow: 0px 0px 22px 2px #fffb00;
+    border-radius: 30%;
+}
+
+.title span {
+    color: #fffb00;
+    text-transform: uppercase;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background-color:  #010024;
+    gap: 1.5rem;
+    margin-left: 20px;
+}
+
+.about .row .caixa-principal {
+    padding: 0rem;
+    margin-top: 0rem;
+    margin-left: 30%;
+}
+
+.about .row .caixa-principal h2 {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.about .row .caixa-principal p {
+    font-size: 1.3rem;
+    color: white;
+    line-height: 1.8;
+    width: 80%;
+    margin-left: -20%;
+}
+
+.our-work .row {
+    display: flex;
+    align-items: center;
+    background-color:  #010024;
+    gap: 1.5rem;
+    margin-left: 20px;
+}
+
+button {
+    background-color:  #010024;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.4;
+}
+
+.image-work {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.formulario {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.formulario-fale-conosco {
+    background-color: #20a23175;
+    ;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -315px;
+    transform: translateX(-0%);
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 1s ease-in-out;
+}
+
+.button-form {
+    color: #fffb00;
+    background-color: #088018;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 10px 4px white;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #ffe80f;
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #ffe80f;
+
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+@keyframes digitando {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
