@@ -112,9 +112,9 @@ p {
     height: 45px;
     cursor: pointer;
     text-transform: uppercase;
-    font-weight: bold;
     margin-top: 30px;
     box-shadow: 0px 0px 10px 4px white;
+    transform: skew(-15deg);
 }
 
 .button-ctt:hover {
@@ -142,6 +142,7 @@ p {
     margin-bottom: 3rem;
     box-shadow: 0px 0px 22px 2px #fffb00;
     border-radius: 30%;
+    transform: skew(-20deg);
 }
 
 .title span {
