@@ -113,12 +113,13 @@ p {
     cursor: pointer;
     text-transform: uppercase;
     margin-top: 30px;
-    box-shadow: 0px 0px 10px 4px white;
     transform: skew(-15deg);
+
 }
 
 .button-ctt:hover {
     opacity: 0.8;
+    box-shadow: 0px 0px 10px 4px white;
 }
 
 .button-ctt:active {
@@ -153,7 +154,7 @@ p {
 .about .row {
     display: flex;
     align-items: center;
-    background-color:  #010024;
+    background-color: #010024;
     gap: 1.5rem;
     margin-left: 20px;
 }
@@ -180,21 +181,21 @@ p {
 .our-work .row {
     display: flex;
     align-items: center;
-    background-color:  #010024;
+    background-color: #010024;
     gap: 1.5rem;
     margin-left: 20px;
 }
 
 button {
-    background-color:  #010024;
+    background-color: #010024;
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     opacity: 0.8;
 }
 
-button:active{
+button:active {
     opacity: 0.4;
 }
 
@@ -222,14 +223,14 @@ button:active{
 .formulario-fale-conosco {
     background-color: #20a23175;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     flex-direction: column;
     position: fixed;
     left: -315px;
     transform: translateX(-0%);
     top: 30%;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 30px;
     transition: left 1s ease-in-out;
 }
 
@@ -242,15 +243,14 @@ button:active{
     height: 45px;
     cursor: pointer;
     text-transform: uppercase;
-    font-weight: bold;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 37px;
     box-shadow: 0px 0px 10px 4px white;
 }
 
 input {
     height: 40px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 1px solid gray;
     padding-left: 5px;
     outline-color: #ffe80f;
@@ -260,7 +260,7 @@ input {
 textarea {
     width: 270px;
     height: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid gray;
     padding-left: 5px;
     outline-color: #ffe80f;
@@ -284,5 +284,687 @@ textarea {
 
     to {
         width: 100%;
+    }
+}
+
+@media (max-width:1170px) {
+    .mapa-brasil {
+        width: 280px;
+        margin-left: 80%;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width:1024px) {
+    .mapa-brasil {
+        width: 250px;
+        margin-left: 70%;
+    }
+
+    .navbar a {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 35px;
+        width: 50%;
+    }
+
+    .button-ctt {
+        width: 190px;
+        height: 40px;
+    }
+
+    .title {
+        font-size: 2rem;
+        margin-top: -10rem;
+    }
+
+    .image-work {
+        border-radius: 10px;
+        margin: 5px;
+        width: 229px;
+        height: 229px;
+    }
+
+    .our-work .row {
+        margin-left: 7px;
+        margin-bottom: 400px;
+    }
+
+    .caixa-mae section {
+        display: flex;
+        align-items: center;
+        min-height: 80vh;
+        margin-top: -5rem;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .navbar a {
+        font-size: 25px;
+    }
+
+    .button-ctt {
+        width: 180px;
+        height: 40px;
+    }
+
+    .mapa-brasil {
+        width: 270px;
+        margin-left: 70%;
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 80px;
+    }
+
+    p {
+        width: 45%;
+    }
+
+    .about .row {
+        margin-top: 7%;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 1.2rem;
+    }
+
+    .title {
+        font-size: 2.1rem;
+    }
+
+    .image-work {
+        border-radius: 10px;
+        margin: 5px;
+        width: 210px;
+        height: 210px;
+    }
+
+    .our-work .row {
+        margin-left: 27px;
+    }
+
+    .link-whatsapp img {
+        height: 60px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width:914px) {
+    p {
+        width: 52%;
+    }
+
+    .mapa-brasil {
+        width: 270px;
+        margin-left: 65%;
+    }
+
+    .title {
+        font-size: 2rem;
+        width: 10rem;
+    }
+
+    .image-work {
+        width: 207px;
+        height: 207px;
+    }
+}
+
+@media (max-width:900px) {
+    h1 {
+        font-size: 30px;
+        line-height: 90px;
+    }
+
+    p {
+        width: 40%;
+        font-size: 25px;
+    }
+
+    .button-ctt {
+        width: 170px;
+        height: 35px;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 1.1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .image-work {
+        width: 190px;
+        height: 190px;
+    }
+
+    .link-whatsapp img {
+        height: 60px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width:854px) {
+    .mapa-brasil {
+        width: 270px;
+        margin-left: 60%;
+    }
+
+    .title {
+        font-size: 2rem;
+        width: 12rem;
+    }
+
+    .image-work {
+        width: 171px;
+        height: 171px;
+    }
+
+    .caixa-mae section {
+        display: flex;
+        align-items: center;
+        min-height: 80vh;
+        margin-top: -4rem;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:821px) {
+    .navbar a {
+        font-size: 23px;
+    }
+
+    .raio {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mapa-brasil {
+        width: 260px;
+        margin-left: 65%;
+    }
+
+    .button-ctt {
+        width: 165px;
+        height: 35px;
+    }
+
+    .caixa-mae section {
+        display: flex;
+        align-items: center;
+    }
+
+    section {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .title {
+        font-size: 1.9rem;
+        width: 180px;
+        margin-top: 6rem;
+    }
+
+    .image-work {
+        width: 164px;
+        height: 164px;
+    }
+
+    .our-work .row {
+        margin-left: 27px;
+        margin-bottom: 90px;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:800px) {
+    .navbar a {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+        line-height: 100px;
+    }
+
+    p {
+        width: 40%;
+        font-size: 23px;
+    }
+
+    .button-ctt {
+        width: 150px;
+        height: 30px;
+    }
+
+    .mapa-brasil {
+        width: 250px;
+        margin-left: 65%;
+    }
+
+    .raio {
+        width: 50px;
+        height: 50px;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+        width: 180px;
+    }
+
+    .image-work {
+        width: 157px;
+        height: 157px;
+    }
+
+    .link-whatsapp img {
+        height: 50px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width:769px) {
+    .image-work {
+        width: 150px;
+        height: 150px;
+    }
+
+    .caixa-mae section {
+        min-height: 80vh;
+        margin-top: -5rem;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.7rem;
+    }
+
+    .link-whatsapp img {
+        height: 45px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.9rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+        width: 180px;
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width:700px) {
+    .navbar a {
+        font-size: 17px;
+    }
+
+    .caixa-mae section {
+        display: flex;
+        align-items: center;
+        min-height: 70vh;
+    }
+
+    .raio {
+        width: 45px;
+        height: 45px;
+    }
+
+    p {
+        width: 50%;
+        font-size: 23px;
+    }
+
+    .button-ctt {
+        width: 140px;
+        height: 30px;
+    }
+
+    .mapa-brasil {
+        width: 200px;
+        margin-left: 70%;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.7rem;
+    }
+
+    .title {
+        font-size: 1.7rem;
+        width: 160px;
+    }
+
+    .image-work {
+        width: 124px;
+        height: 124px;
+    }
+
+    .link-whatsapp img {
+        height: 45px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .navbar a {
+        font-size: 15px;
+    }
+
+    .raio {
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    p {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .button-ctt {
+        width: 130px;
+    }
+
+    .mapa-brasil {
+        width: 170px;
+        margin-left: 70%;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.6rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        width: 170px;
+    }
+
+    .image-work {
+        width: 94px;
+        height: 94px;
+    }
+}
+
+@media (max-width:541px) {
+    .navbar {
+        margin-right: 23%;
+    }
+
+    .raio {
+        width: 35px;
+        height: 35px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        width: 55%;
+        font-size: 17px;
+    }
+
+    .button-ctt {
+        width: 130px;
+    }
+
+    .mapa-brasil {
+        width: 150px;
+        margin-left: 67%;
+    }
+
+    .about .row {
+        margin-top: 29%;
+    }
+
+    .caixa-mae section {
+        display: flex;
+        align-items: center;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.5rem;
+    }
+
+    .title {
+        font-size: 1.3rem;
+        margin-top: 6rem;
+    }
+
+    .image-work {
+        width: 80px;
+        height: 80px;
+        margin: 1px;
+    }
+}
+
+@media (max-width:431px) {
+    .navbar a {
+        font-size: 10px;
+    }
+
+    .raio {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mapa-brasil {
+        width: 132px;
+        margin-left: 63%;
+    }
+
+    .button-ctt {
+        width: 120px;
+    }
+
+    .about .row {
+        margin-top: 83%;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.4rem;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .image-work {
+        width: 51px;
+        height: 51px;
+        margin: 1px;
+    }
+
+    /* .formulario-fale-conosco {
+        left: 11%;
+    } */
+}
+
+@media (max-width:415px) {
+    .navbar a {
+        font-size: 9px;
+    }
+
+    .button-ctt {
+        font-size: 12px;
+    }
+
+    .image-work {
+        width: 46px;
+        height: 46px;
+    }
+}
+
+@media (max-width:413px) {
+    .image-work {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width:391px) {
+    .navbar a {
+        font-size: 7px;
+    }
+
+    .raio {
+        width: 27px;
+        height: 27px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    .button-ctt {
+        font-size: 10px;
+    }
+
+    .about .row .caixa-principal p {
+        font-size: 0.3rem;
+    }
+
+    .image-work {
+        width: 38px;
+        height: 38px;
+    }
+
+    .title {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:376px) {
+    .navbar a {
+        font-size: 6px;
+    }
+
+    .raio {
+        width: 25px;
+        height: 25px;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    .button-ctt {
+        font-size: 9px;
+    }
+
+    .mapa-brasil {
+        width: 130px;
+        margin-left: 60%;
+    }
+
+    .image-work {
+        width: 33px;
+        height: 33px;
+    }
+
+    .title {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:361px) {
+    .navbar a {
+        font-size: 5px;
+    }
+
+    .raio {
+        width: 23px;
+        height: 23px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    p {
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .button-ctt {
+        font-size: 8px;
+    }
+
+    .mapa-brasil {
+        width: 120px;
+        margin-left: 65%;
+    }
+    .image-work {
+        width: 28px;
+        height: 28px;
+    }
+    .title {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:345px){
+    .navbar a {
+        font-size: 4px;
+    }
+    .raio {
+        width: 20px;
+        height: 20px;
+    }
+    h1 {
+        font-size: 13px;
+    }
+    .button-ctt {
+        font-size: 7px;
+    }
+    .mapa-brasil {
+        width: 100px;
+        margin-left: 69%;
+    }
+    .about .row .caixa-principal p {
+        font-size: 0.2rem;
+    }
+    .image-work {
+        width: 23px;
+        height: 23px;
+    }
+    .title {
+        font-size: 0.5rem;
     }
 }
