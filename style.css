@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: #010024;
+    background-color: #0c330a;
 }
 
 section {
@@ -91,7 +91,7 @@ section {
 h1 {
     font-size: 45px;
     margin-bottom: 150px;
-    color: #088018;
+    color: #fffd11;
     border-radius: 10px;
     height: 40px;
     line-height: 50px;
@@ -141,7 +141,7 @@ p {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3rem;
-    box-shadow: 0px 0px 22px 2px #fffb00;
+    box-shadow: 0px 0px 22px 2px #0400fa;
     border-radius: 30%;
     transform: skew(-20deg);
 }
@@ -154,7 +154,7 @@ p {
 .about .row {
     display: flex;
     align-items: center;
-    background-color: #010024;
+    background-color: #0c330a;
     gap: 1.5rem;
     margin-left: 20px;
 }
@@ -172,7 +172,7 @@ p {
 
 .about .row .caixa-principal p {
     font-size: 1.3rem;
-    color: white;
+    color: #fffb00;
     line-height: 1.8;
     width: 80%;
     margin-left: -20%;
@@ -181,13 +181,13 @@ p {
 .our-work .row {
     display: flex;
     align-items: center;
-    background-color: #010024;
+    background-color: #0c330a;
     gap: 1.5rem;
     margin-left: 20px;
 }
 
 button {
-    background-color: #010024;
+    background-color: #0c330a;
     cursor: pointer;
 }
 
@@ -297,6 +297,11 @@ textarea {
         font-size: 40px;
         line-height: 70px;
     }
+
+    .image-work {
+        width: 230px;
+        height: 230px;
+    }
 }
 
 @media (max-width:1024px) {
@@ -327,24 +332,26 @@ textarea {
     .image-work {
         border-radius: 10px;
         margin: 5px;
-        width: 229px;
-        height: 229px;
+        width: 228px;
+        height: 228px;
     }
 
     .our-work .row {
-        margin-left: 7px;
+        margin-left: 8px;
         margin-bottom: 400px;
     }
 
     .caixa-mae section {
         display: flex;
         align-items: center;
-        min-height: 80vh;
-        margin-top: -5rem;
+        height: 46rem;
     }
 
     .about .row .caixa-principal p {
         font-size: 1.2rem;
+    }
+    .about .row {
+        margin-top: 6rem;
     }
 }
 
@@ -356,6 +363,7 @@ textarea {
     .button-ctt {
         width: 180px;
         height: 40px;
+        margin-top: 1rem;
     }
 
     .mapa-brasil {
@@ -419,8 +427,8 @@ textarea {
     }
 
     .image-work {
-        width: 207px;
-        height: 207px;
+        width: 202px;
+        height: 202px;
     }
 }
 
@@ -594,8 +602,8 @@ textarea {
 
 @media (max-width:769px) {
     .image-work {
-        width: 150px;
-        height: 150px;
+        width: 147px;
+        height: 147px;
     }
 
     .caixa-mae section {
@@ -657,7 +665,7 @@ textarea {
     }
 
     .about .row .caixa-principal p {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .title {
@@ -680,12 +688,14 @@ textarea {
 
 @media (max-width:600px) {
     .navbar a {
-        font-size: 15px;
+        font-size: 20px;
+        display: block;
+        margin: 12px;
     }
 
     .raio {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     h1 {
@@ -707,7 +717,7 @@ textarea {
     }
 
     .about .row .caixa-principal p {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .title {
@@ -727,21 +737,24 @@ textarea {
     }
 
     .raio {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
     }
 
     h1 {
         font-size: 20px;
+        margin-left: 1rem;
     }
 
     p {
         width: 55%;
         font-size: 17px;
+        margin-left: 1rem;
     }
 
     .button-ctt {
         width: 130px;
+        margin-left: 1rem;
     }
 
     .mapa-brasil {
@@ -756,10 +769,11 @@ textarea {
     .caixa-mae section {
         display: flex;
         align-items: center;
+        margin-left: -2rem;
     }
 
     .about .row .caixa-principal p {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
     }
 
     .title {
@@ -768,20 +782,30 @@ textarea {
     }
 
     .image-work {
-        width: 80px;
-        height: 80px;
+        width: 92px;
+        height: 92px;
         margin: 1px;
     }
 }
 
 @media (max-width:431px) {
     .navbar a {
-        font-size: 10px;
+        font-size: 20px;
+        display: block;
+        margin: 0.5rem;
     }
 
     .raio {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-left: 1rem;
+    }
+    p {
+        margin-left: 1rem;
     }
 
     .mapa-brasil {
@@ -791,6 +815,7 @@ textarea {
 
     .button-ctt {
         width: 120px;
+        margin-left: 1rem;
     }
 
     .about .row {
@@ -798,7 +823,8 @@ textarea {
     }
 
     .about .row .caixa-principal p {
-        font-size: 0.4rem;
+        font-size: 0.8rem;
+        width: 10rem;
     }
 
     .title {
@@ -806,8 +832,8 @@ textarea {
     }
 
     .image-work {
-        width: 51px;
-        height: 51px;
+        width: 87px;
+        height: 87px;
         margin: 1px;
     }
 
@@ -818,7 +844,7 @@ textarea {
 
 @media (max-width:415px) {
     .navbar a {
-        font-size: 9px;
+        font-size: 20px;
     }
 
     .button-ctt {
@@ -826,26 +852,26 @@ textarea {
     }
 
     .image-work {
-        width: 46px;
-        height: 46px;
+        width: 80px;
+        height: 80px;
     }
 }
 
 @media (max-width:413px) {
     .image-work {
-        width: 45px;
-        height: 45px;
+        width: 79px;
+        height: 79px;
     }
 }
 
 @media (max-width:391px) {
     .navbar a {
-        font-size: 7px;
+        font-size: 20px;
     }
 
     .raio {
-        width: 27px;
-        height: 27px;
+        width: 38px;
+        height: 38px;
     }
 
     h1 {
@@ -857,12 +883,12 @@ textarea {
     }
 
     .about .row .caixa-principal p {
-        font-size: 0.3rem;
+        font-size: 0.7rem;
     }
 
     .image-work {
-        width: 38px;
-        height: 38px;
+        width: 68px;
+        height: 68px;
     }
 
     .title {
@@ -872,12 +898,12 @@ textarea {
 
 @media (max-width:376px) {
     .navbar a {
-        font-size: 6px;
+        font-size: 20px;
     }
 
     .raio {
-        width: 25px;
-        height: 25px;
+        width: 35px;
+        height: 35px;
     }
 
     h1 {
@@ -893,24 +919,30 @@ textarea {
         margin-left: 60%;
     }
 
+    .about .row .caixa-principal p {
+        font-size: 0.7rem;
+        margin-left: -3rem;
+    }
+
     .image-work {
-        width: 33px;
-        height: 33px;
+        width: 61px;
+        height: 61px;
     }
 
     .title {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        
     }
 }
 
 @media (max-width:361px) {
     .navbar a {
-        font-size: 5px;
+        font-size: 20px;
     }
 
     .raio {
-        width: 23px;
-        height: 23px;
+        width: 35px;
+        height: 35px;
     }
 
     h1 {
@@ -930,41 +962,53 @@ textarea {
         width: 120px;
         margin-left: 65%;
     }
+
     .image-work {
-        width: 28px;
-        height: 28px;
+        width: 53px;
+        height: 53px;
     }
+
     .title {
-        font-size: 0.6rem;
+        font-size: 1rem;
     }
 }
 
-@media (max-width:345px){
+@media (max-width:345px) {
     .navbar a {
-        font-size: 4px;
+        font-size: 16px;
     }
+
     .raio {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
+
     h1 {
         font-size: 13px;
     }
+
     .button-ctt {
         font-size: 7px;
     }
+
     .mapa-brasil {
         width: 100px;
         margin-left: 69%;
     }
+
     .about .row .caixa-principal p {
-        font-size: 0.2rem;
+        font-size: 0.6rem;
+        margin-left: -2rem;
     }
+
     .image-work {
-        width: 23px;
-        height: 23px;
+        width: 66px;
+        height: 66px;
     }
+
     .title {
-        font-size: 0.5rem;
+        font-size: 1rem;
+        width: 8rem;
+        height: 2rem;
     }
 }
